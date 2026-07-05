@@ -39,7 +39,7 @@ I went with a simple blue color theme and a two-column layout to try and have th
 
 ## AI Usage Log
 
-- **Asked for**: help making sure my code comments were clear and made sense. **Got**: comment text explaining the why behind different parts of the code. **What I changed/learned**: I actually read through every comment and made sure I understood it and could explain it before keeping it, instead of just pasting it in and moving on. Kept the "COMPONENT and PURPOSE" from ai to make organized.
+- **Asked for**: help making sure my code comments were clear and made sense. **Got**: comment text explaining the why behind different parts of the code. **What I changed/learned**: I actually read through every comment and made sure I understood it and could explain it before keeping it, instead of just pasting it in and moving on. 
 
 - **Asked for**: help figuring out a "Hydration failed" error that popped up after I added localStorage. **Got**: an explanation that the server and the browser were rendering different things on the very first load, which is why it broke. **What I changed/learned**: honestly this one confused me for a while, but I get it now, the app has to start the same way on both the server and the browser, then load the real saved data right after. That's why there's a quick flash before my tasks show up.
 
