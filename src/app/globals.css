@@ -1,0 +1,30 @@
+/* ══════════════════════════════════════════════════════
+   FILE: globals.css
+   PURPOSE: Imports Tailwind and sets up the color/font
+   variables the app uses. The @theme block is Tailwind v4's
+   way of defining custom colors so I can use classes like
+   bg-open or text-ink anywhere in my components.
+   ══════════════════════════════════════════════════════ */
+
+@import "tailwindcss";
+
+@theme {
+  /* Background and text colors — simple blue theme */
+  --color-bg: #eff6ff;
+  --color-surface: #ffffff;
+  --color-ink: #1e3a5f;
+  --color-ink-soft: #5b7c99;
+  --color-border: #cbdff5;
+
+  /* Status colors: active tasks, done tasks, delete buttons */
+  --color-open: #2563eb;
+  --color-done: #0ea5e9;
+  --color-danger: #dc2626;
+
+  /* One font family used everywhere, loaded in layout.js */
+  --font-body: var(--font-inter);
+}
+
+body {
+  background-color: var(--color-bg);
+}
