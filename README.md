@@ -50,3 +50,9 @@ I went with a simple blue color theme and a two-column layout to try and have th
 - **Asked for**: help figuring out why my browser kept showing the old version of my app even after I changed my code. **Got**: turns out I was running the dev server from an old folder, and my browser was also just caching the old page. **What I changed/learned**: now I always double check which folder my terminal is actually sitting in, and I hard refresh (Ctrl+Shift+R) whenever I test something new.
 
 - **Asked for**: help moving my layout around so the add-task form and stats stay on the left and the task list grows on the right. **Got**: an updated layout using flexbox. **What I changed/learned**: none of my actual state or logic had to change for this, it was purely a styling/layout change, which helped me realize how separate those two things really are in this code.
+
+## Known Limitations
+
+- Tasks can't be edited after they're created. You can only delete and re-add.
+- There's no due date or sorting feature.
+- Can't group common tasks together.
